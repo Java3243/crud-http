@@ -26,7 +26,7 @@
 
                     @csrf
 
-                    <!-- Nombre -->
+                    
                     <div class="mb-3">
 
                         <label for="nombre" class="form-label">
@@ -74,7 +74,7 @@
 
                     </div>
 
-                    <!-- Precio -->
+                    
                     <div class="mb-3">
 
                         <label for="precio" class="form-label">
@@ -105,7 +105,7 @@
 
                     </div>
 
-                    <!-- Botones -->
+                   
                     <div class="d-flex gap-2">
 
                         <button type="submit" class="btn btn-success">

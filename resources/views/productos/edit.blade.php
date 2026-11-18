@@ -27,7 +27,7 @@
                     @csrf
                     @method('PUT')
 
-                    <!-- Nombre -->
+                    
                     <div class="mb-3">
 
                         <label for="nombre" class="form-label">
@@ -50,7 +50,7 @@
 
                     </div>
 
-                    <!-- Categoría -->
+                    
                     <div class="mb-3">
 
                         <label for="categoria" class="form-label">

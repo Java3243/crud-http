@@ -7,11 +7,11 @@
 
     <title>@yield('title', 'CRUD HTTP') | Laravel 12</title>
 
-    <!-- Bootstrap Icons -->
+   
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-    <!-- Bootstrap 5 mediante Vite -->
+   
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 
@@ -29,10 +29,10 @@
         </div>
     </nav>
 
-    <!-- Contenido principal -->
+   
     <main class="container">
 
-        <!-- Mensaje de éxito -->
+        
         @if (session('ok'))
             <div class="alert alert-success alert-dismissible fade show"
                  role="alert">
